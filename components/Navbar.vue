@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-between">
-      <div class="">
+      <div>
         <img
           src="@/assets/img/Logo.svg"
           alt="Logo"
