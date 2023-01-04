@@ -2,7 +2,7 @@
   <div class="flex flex-col lg:flex-row">
     <div class="flex-1 flex self-center lg:mr-2">
       <div>
-        <h1 class="font-semibold text-4xl leading-none tracking-wider lg:text-7xl lg:leading-none lg:tracking-wider text-[#2D3134] font-sans">Discover the <br> Best Lovely <br> Places</h1>
+        <h1 class="font-semibold text-4xl leading-none tracking-wider lg:text-7xl lg:leading-none lg:tracking-wider text-[#2D3134]">Discover the <br> Best Lovely <br> Places</h1>
         <p class="pt-4 font-light tracking-wide text-sm lg:text-xl">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
 
         <div class="mt-10">
