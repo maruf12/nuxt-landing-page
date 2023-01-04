@@ -1,7 +1,8 @@
 <template>
   <div>
     <Navbar />
-    <Header />
+    <Header class="mt-10" />
+    <Categories class="mt-20" />
   </div>
 </template>
 

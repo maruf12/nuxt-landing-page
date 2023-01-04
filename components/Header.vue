@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row mt-10">
+  <div class="flex flex-col lg:flex-row">
     <div class="flex-1 flex self-center lg:mr-2">
       <div>
         <h1 class="font-semibold text-4xl leading-none tracking-wider lg:text-7xl lg:leading-none lg:tracking-wider text-[#2D3134] font-sans">Discover the <br> Best Lovely <br> Places</h1>

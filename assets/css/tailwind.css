@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#FAF8ED] p-8 md:px-24 md:pt-12;
+  @apply bg-[#FAF8ED] p-8 md:px-32 md:pt-12;
 }
