@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="lg:w-1/3">
-      <h2 class="font-semibold text-4xl leading-none tracking-wider lg:text-4xl lg:leading-none lg:tracking-wide text-[#2D3134] font-sans">Categories</h2>
+      <h2 class="font-semibold text-4xl leading-none tracking-wider lg:text-5xl lg:leading-none lg:tracking-wide text-[#2D3134] font-sans">Categories</h2>
       <p class="pt-4 font-extralight tracking-wide text-sm lg:text-base">Here are lots of interesting destinations to visit, but don't be confused—they're already grouped by category.</p>
     </div>
     <div class="flex flex-col flex-auto lg:flex-row mt-10 justify-between">
