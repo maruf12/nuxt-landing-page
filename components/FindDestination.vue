@@ -7,7 +7,7 @@
     </div>
     <div class="mt-8 media-scroller snaps-inline">
       <div v-for="item in popularDestinationData" :key="item" class="bg-transparent border-2 border-white pt-3 pb-6 px-3 rounded-2xl shadow-md">
-        <nuxt-img :src="item.img" loading="lazy" />
+        <img :src="item.img" loading="lazy" />
         <h4 class="mt-5 ml-2 font-medium text-lg text-[#2D3134]">{{ item.name }}</h4>
         <p class="ml-2 font-extralight tracking-wide text-sm">{{ item.desc }}</p>
         <div class="mt-5 flex justify-between">
