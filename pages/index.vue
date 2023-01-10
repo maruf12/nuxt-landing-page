@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <Header class="mt-10" />
-    <!-- <Categories class="mt-32" /> -->
+    <Categories class="mt-32" />
     <!-- <Experience class="mt-32" /> -->
     <FindDestination class="mt-32" />
     <!-- <TopDestination class="mt-32" /> -->

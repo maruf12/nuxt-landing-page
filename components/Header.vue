@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="flex-1 mt-10 lg:ml-32 lg:pl-20">
-      <img src="@/assets/img/hero-img.svg" alt="Hero Image" />
+      <nuxt-img src="hero.png" loading="lazy" />
     </div>
   </div>
 </template>
