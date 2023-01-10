@@ -6,7 +6,7 @@
     </div>
     <div class="flex flex-wrap lg:flex lg:flex-row mt-10 justify-between">
       <div v-for="item in categoriesData" :key="item" class="mx-5 basis-1/3 w-1/2 lg:basis-[13%] lg:w-full py-2">
-        <nuxt-img :src="item.img" loading="lazy" />
+        <img :src="item.img" />
         <p class="text-center font-medium text-xl mt-2 tracking-wider">{{ item.name }}</p>
       </div>
     </div>
