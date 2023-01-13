@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center bg-[#FFD482] rounded-3xl py-4 lg:py-10">
+  <div class="flex justify-center rounded-3xl py-4 lg:py-10 mt-20 bg-gradient-to-r hover:from-green-400 hover:to-blue-500 to-[#F66F4D] from-[#FFD482]">
     <div class="w-4/5 lg:w-2/5">
       <h2 class="mt-5 font-semibold text-center text-2xl tracking-wider lg:text-4xl text-[#2D3134]">Sign up to our newsletter</h2>
       <p class="mt-3 font-extralight tracking-widest text-center text-sm lg:text-base">Reciev latest news, update, and many other things every week. </p>

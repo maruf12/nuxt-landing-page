@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="2xl:w-3/4 2xl:mx-auto">
     <Navbar />
     <Header class="mt-10" />
     <Categories class="mt-32" />
