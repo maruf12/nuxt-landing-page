@@ -5,7 +5,7 @@
     <Categories class="mt-32" />
     <Experience class="mt-32" />
     <FindDestination class="mt-32" />
-    <TopDestination class="mt-32" />
+    <TopDestination class="mt-32 hidden lg:block" />
     <Testimoni class="mt-32" />
     <CallToAction class="mt-32"/>
     <Footer class="mt-32" />
