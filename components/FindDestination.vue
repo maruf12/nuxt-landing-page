@@ -83,15 +83,14 @@
   /* grid-auto-columns: 51%; */
   /* padding: 0 var(--_spacer) var(--_spacer); */
 
-  /* overflow-x: auto; */
-  /* overscroll-behavior-inline: contain; */
-  @apply grid gap-x-7 grid-flow-col auto-cols-[75%] md:auto-cols-[41%] lg:auto-cols-[29%] pb-6 overflow-x-auto overscroll-x-contain;
+  @apply grid gap-x-7 grid-flow-col auto-cols-[75%] md:auto-cols-[41%] lg:auto-cols-[29%] pb-6;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
 }
 
 .snaps-inline {
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: var(--_spacer, 1rem);
-  scrollbar-color: red yellow;
+  scroll-padding-inline: var(--_spacer, 5rem);
 }
 
 .snaps-inline > * {
