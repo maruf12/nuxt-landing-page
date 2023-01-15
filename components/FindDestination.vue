@@ -7,7 +7,15 @@
     </div>
     <div class="mt-8 media-scroller snaps-inline">
       <div v-for="item in popularDestinationData" :key="item" class="bg-transparent border-2 border-white pt-3 pb-6 px-3 rounded-2xl shadow-md">
-        <img :src="item.img" loading="lazy" />
+        <nuxt-img
+          :src="item.img"
+          provider="cloudinary"
+          width="724"
+          height="504"
+          loading="lazy"
+          format="webp"
+          :alt="item.desc"
+        />
         <h4 class="mt-5 ml-2 font-medium text-lg text-[#2D3134]">{{ item.name }}</h4>
         <p class="ml-2 font-extralight tracking-wide text-sm">{{ item.desc }}</p>
         <div class="mt-5 flex justify-between">
@@ -15,7 +23,7 @@
             {{ item.price }} 
             <span class="font-light tracking-wide text-xs lg:text-sm">/ {{ item.quantity }}</span>
           </p>
-          <button class="flex items-center justify-center rounded-[30px] border border-[#3D3D3D] bg-transparent px-3 py-2 text-sm text-[#3D3D3D] shadow-sm hover:bg-[#3D3D3D] hover:text-white focus:bg-[#3D3D3D] focus:text-white active:bg-[#3D3D3D] active:text-white">
+          <button class="flex items-center justify-center rounded-[30px] border border-[#3D3D3D] bg-transparent px-3 py-2 text-sm text-[#3D3D3D] shadow-sm hover:bg-[#3D3D3D] hover:text-white focus:bg-[#3D3D3D] focus:text-white active:bg-[#3D3D3D] active:text-white" aria-label="Book Now Place">
             {{ 'Book Now' }}
           </button>
         </div>
@@ -31,42 +39,42 @@
       desc: 'Mountain hiking tour',
       price: '$89',
       quantity: 'Person',
-      img: '/popular-1.png'
+      img: '/popular-1_jc1kwh.png'
     },
     {
       name: 'Machu Picchu, Peru',
       desc: 'Machu picchu, peru',
       price: '$99',
       quantity: 'Person',
-      img: '/popular-2.png'
+      img: '/popular-2_vwetoq.png'
     },
     {
       name: 'The Grand Canyon, Arizona',
       desc: 'The grand canyon, Arizona',
       price: '$79',
       quantity: 'Person',
-      img: '/popular-4.png'
+      img: '/popular-4_s7hlmh.png'
     },
     {
       name: 'Roma, Italia',
       desc: 'Roma, Italia',
       price: '$79',
       quantity: 'Person',
-      img: '/popular-1.png'
+      img: '/popular-1_jc1kwh.png'
     },
     {
       name: 'Mountain Hiking Tour',
       desc: 'Mountain hiking tour',
       price: '$89',
       quantity: 'Person',
-      img: '/popular-2.png'
+      img: '/popular-2_vwetoq.png'
     },
     {
       name: 'The Grand Canyon, Arizona',
       desc: 'The grand canyon, Arizona',
       price: '$79',
       quantity: 'Person',
-      img: '/popular-4.png'
+      img: '/popular-4_s7hlmh.png'
     }
   ])
 </script>

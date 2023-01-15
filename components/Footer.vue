@@ -1,9 +1,17 @@
 <template>
   <div class="flex flex-col lg:flex-row mb-10">
     <div class="self-center lg:self-start lg:w-2/5">
-      <img src="@/assets/img/Logo.svg" alt="Logo" />
+      <nuxt-img 
+        src="/Logo_kk4fqp.png"
+        width="98"
+        height="35"
+        preload
+        provider="cloudinary"
+        format="webp"
+        alt="logo"
+      />
       <p class="mt-4 font-light text-sm leading-none text-[#2D3134]">Enjoy the touring with salty</p>
-      <img class="mt-6" src="@/assets/img/social-icon.svg" alt="Logo" />
+      <img class="mt-6" src="@/assets/img/social-icon.svg" width="124" height="32" alt="Logo" />
     </div>
     <!-- Mobile -->
     <div class="flex flex-wrap p-6 md:hidden">
