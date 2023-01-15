@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="flex-1 mt-10 lg:ml-32 lg:pl-20">
-      <nuxt-img src="/hero.png" />
+      <nuxt-img src="/hero_zlhcwh.png" provider="cloudinary" />
     </div>
   </div>
 </template>

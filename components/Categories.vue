@@ -6,7 +6,7 @@
     </div>
     <div class="flex flex-wrap lg:flex lg:flex-row mt-10 justify-between">
       <div v-for="item in categoriesData" :key="item" class="mx-5 basis-1/3 w-1/2 lg:basis-[13%] lg:w-full py-2">
-        <nuxt-img :src="item.img" provider="static" />
+        <nuxt-img :src="item.img" provider="cloudinary" />
         <p class="text-center font-medium text-xl mt-2 tracking-wider">{{ item.name }}</p>
       </div>
     </div>
@@ -17,27 +17,27 @@
   const categoriesData = ref([
     {
       name: 'Beach',
-      img: '/categories-1.png'
+      img: '/categories-1_ajftw2.png'
     },
     {
       name: 'Desert',
-      img: '/categories-2.png'
+      img: '/categories-2_owago6.png'
     },
     {
       name: 'Mountain',
-      img: '/categories-3.png'
+      img: '/categories-3_l2vopt.png'
     },
     {
       name: 'Temple',
-      img: '/categories-4.png'
+      img: '/categories-4_omhtoe.png'
     },
     {
       name: 'Tower',
-      img: '/categories-5.png'
+      img: '/categories-5_jzpax2.png'
     },
     {
       name: 'Pyramid',
-      img: '/categories-6.png'
+      img: '/categories-6_dw2yow.png'
     },
   ])
 
