@@ -11,12 +11,66 @@
     </div> -->
     <div class="mt-10 flex justify-center">
       <div class="grid grid-rows-2 grid-flow-col gap-5 h-[510px]">
-        <img class="row-start-1 row-span-1" src="/top-destination-1.png" alt="Vietnam destination 1" />
-        <img class="row-start-2 row-span-1" src="/top-destination-2.png" alt="Vietnam destination 2" />
-        <img class="row-start-1 row-span-2" src="/top-destination-3.png" alt="Vietnam destination 3" />
-        <img class="row-start-1 col-span-2" src="/top-destination-4.png" alt="Vietnam destination 4" />
-        <img class="row-start-2 row-span-1" src="/top-destination-5.png" alt="Vietnam destination 5" />
-        <img class="row-start-2 row-span-1" src="/top-destination-6.png" alt="Vietnam destination 6" />
+        <nuxt-img 
+          class="row-start-1 row-span-1"
+          src="/top-destination-1_i7vopu.png"
+          width="270"
+          height="250"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="Staycation"
+        />
+        <nuxt-img 
+          class="row-start-2 row-span-1"
+          src="/top-destination-2_rxp3q6.png"
+          width="270"
+          height="260"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="Traditional building"
+        />
+        <nuxt-img 
+          class="row-start-1 row-span-2"
+          src="/top-destination-3_qp411t.png"
+          width="370"
+          height="526"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="unique building"
+        />
+        <nuxt-img 
+          class="row-start-1 col-span-2"
+          src="/top-destination-4_fqefdp.png"
+          width="470"
+          height="250"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="beautiful bridge"
+        />
+        <nuxt-img 
+          class="row-start-2 row-span-1"
+          src="/top-destination-5_v5iq1r.png"
+          width="170"
+          height="263"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="iconic building"
+        />
+        <nuxt-img 
+          class="row-start-2 row-span-1"
+          src="/top-destination-6_ysm5se.png"
+          width="270"
+          height="263"
+          loading="lazy"
+          provider="cloudinary"
+          format="webp"
+          alt="historical building"
+        />
       </div>
     </div>
     

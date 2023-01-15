@@ -1,7 +1,15 @@
 <template>
   <div class="flex flex-col-reverse lg:flex-row">
     <div class="flex-1 mt-10 lg:mt-0">
-      <img src="/experience.png" alt="experience" width="480" />
+      <nuxt-img
+        src="/experience_ymuw4f.png"
+        provider="cloudinary"
+        width="592"
+        height="632"
+        loading="lazy"
+        format="webp"
+        alt="Photographer"
+      />
     </div>
     <div class="flex-1 lg:self-center lg:ml-24">
       <h2 class="font-medium text-[#F66F4D] tracking-widest text-base lg:text-lg">Our Experience</h2>
