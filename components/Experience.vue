@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col-reverse lg:flex-row">
-    <div class="flex-1 mt-10 lg:mt-0">
+    <div class="img-experience flex-1 mt-10 lg:mt-0">
       <nuxt-img
         src="/experience_ymuw4f.png"
         provider="cloudinary"
@@ -44,8 +44,27 @@
       textSecondary: 'Experience'
     }
   ])
+
+  onMounted(() => {
+    console.log(`the component is now mounted.`)
+  })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+  .img-experience {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
 
+  @keyframes slidein {
+    from {
+      margin-right: 70%;
+      width: 150%;
+    }
+
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
 </style>
